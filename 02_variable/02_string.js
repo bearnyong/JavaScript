@@ -1,5 +1,6 @@
 /*
-2. 문자열 타입
+02. string(문자열 타입)
+
 문자열 타입은 텍스트 데이터를 나타내는데 사용한다.
 문자열은 작은 따옴표(''), 큰 따옴표(""), 또는 백틱(``)으로 텍스트를 감싼다.
 자바는 문자열을 객체로 표현하지만 자바스크립트는 문자열을 원시 타입으로 변경한다.
@@ -11,7 +12,7 @@ string = "JavaScript";
 string = `JaVaScRict`;
 
 console.log(string); //JaVaScRict
-console.log(`java vs ${string}`); //java vs JaVaScRict(이크마6 문법)
+console.log(`java vs ${string}`); //java vs JaVaScRict(ES6)
 
 text = "큰 따옴표로 감싼 문자열 내의 '작은 따옴표'는 문자열로 인식";
 console.log(text); //큰 따옴표로 감싼 문자열 내의 '작은 따옴표'는 문자열로 인식
